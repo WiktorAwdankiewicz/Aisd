@@ -1,0 +1,3 @@
+Zadanie1 lista2
+Wykorzystujemy wyszukiwanie binarne
+liczba porównań: O(logn)
