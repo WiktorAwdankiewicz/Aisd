@@ -1,0 +1,8 @@
+Zadanie 3 / Lista 2
+a) n
+b) 
+Standardowy sposób: (n*(n+1))/2
+Wykorzystując schemat Hornera: n
+c) n^2
+d) n^3
+e) n!
