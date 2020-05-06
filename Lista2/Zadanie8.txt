@@ -1,0 +1,10 @@
+Zadanie 8/lista 2
+W każdym drzewie BST ponad połowa wskaźników jest zawsze równa NULL, ponieważ niezależnie
+od ułożenia/wyglądu drzewa, wskaźników zerowych jest zawsze o 1 więcej, niż wskaźników niezerowych.
+Każdy węzeł posiada jednego rodzica i 2 wskaźniki na potomków (węzły lewy oraz prawy)
+lub na wartości NULL. Wyjątkiem jest korzeń który nie posiada rodzica; posiada tylko wskaźniki na węzły potomne.
+Jeśli za n oznaczymy ilość węzłów, to liczba wskaźników =/= NULL jest równa n - 1.
+Każdy węzeł jest wskazywany dokładnie przez jeden wskaźnik, z wyjątkiem korzenia, dlatego odejmujemy 1.
+Każdy węzeł posiada 2 wskaźniki, zatem całkowita liczba wskaźników jest równa 2n.
+Zatem liczba wskaźników zerowych jest równa: 2n - (n - 1) = n + 1
+n + 1 > n - 1

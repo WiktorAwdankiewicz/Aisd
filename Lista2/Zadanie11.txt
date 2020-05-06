@@ -1,0 +1,12 @@
+Zadanie 11/lista 2
+Przykład drzewa bst
+
+[ {2} 5 { (6) 7 (9) } ] 10 [12]
+		
+Chcemy usunąć 5, zatem postępując według punktu c w miejsce 5 wstawiamy najmniejszy element z prawego poddrzewa i w tym przypadku będzie to 6.
+Zatem po usunięciu drzewo będzie wyglądać następująco:
+
+[ {2} 6 { 7 (9) } ] 10 [12]
+			   
+Metoda ta nie psuje prawidłowego rosnącego porządku kluczy wypisywanych w porządku inorder, ponieważ element z lewego poddrzewa jest mniejszy od wstawionej 6,
+jak i również elementy z prawego poddrzewa są większe od wstawionej 6. 6 jest najmniejszym elementem spośród większych od 5, którą chcieliśmy usunąć.
