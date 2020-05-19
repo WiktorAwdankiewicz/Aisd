@@ -1,0 +1,3 @@
+Zadanie 2/lista 3
+a) k + n - 1
+b) n(n-1)/2
