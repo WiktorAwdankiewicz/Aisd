@@ -1,0 +1,10 @@
+Zadanie 5/lista 5
+Algorytmy sortujące, które dla elementów o tej samej wartości zachowują w tablicy końcowej kolejność tablicy wejściowe nazywamy algorytmami stabilnymi.
+
+a) InsertionSort - TAK. Nie zmieniamy miejscami elementów, które są równe.
+b) QuickSort - NIE. Gdy w liście mamy dwa elementy równe sobie, to w tym algorytmie zamieniamy je miejscami.
+c) HeapSort - NIE. Z racji tego, że w tym algorytmie elementy wrzucane są na kopiec, w tym momencie tracona jest informacja na temat kolejności elementów
+d) MergeSort - TAK. W momencie gdy napiszemy dobrze algorytm (<= zamaist <) to nie będzie zmieniać kolejności elementów.
+e) CountingSort - TAK. Nie zmieniamy kolejności przy zliczaniu, odwołujemy się do nich po kolei.
+f) RadixSort - TAK/NIE. Jeśli będziemy sortować od najmniej ważnych elementów (jedności), to ten algorytm będzie stabilny. Natomiast jeśli doliczymy liczby po przecinku to już nie.
+g) BucketSort - TAK. Przy wkładaniu do kubełków nie zmieniamy kolejności.

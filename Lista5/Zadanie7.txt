@@ -1,0 +1,15 @@
+Zadanie 7/lista 5
+Najgorszy przypadek złożoności sortowania kubełkowego to O(n^2)
+
+Schemat ogólny liczenia złożoności sortowania kubełkowego:
+1. Dodaj element do wiadra. Używanie listy połączonej to O(1)
+2. Przechodząc przez listę i umieszczając elementy we właściwym wiadrze = O(n)
+3. Łączenie segmentów = O(k)
+4. O(1) * O(n) * O(k) = O(n+k)
+
+Otrzymujemy O(n+k). W założeniu sortowania kubełkowego rozłożenie liczb jest równomierne.
+Jednak jeśli algorytm zdecyduje, że każdy element należy do tego samego kubełka to w takim przypadku lista połączona
+w tym segmencie musi być wykonywana za każdym razem, gdy dodawany jest element. To zajmuje 1 krok, potem 2, potem 3,4,5, aż do n.
+Zatem czas jest sumą wszystkich liczb od 1 do n, która jest (n^2 + n)/2, czyli O(n^2).
+Oczywiście jest to "najgorszy przypadek" (wszystkie elementy w jednym wiadrze) - algorytm do obliczania,
+w które wiadro umieścić element, jest zazwyczaj zaprojektowany tak, aby uniknąć tego zachowania.
