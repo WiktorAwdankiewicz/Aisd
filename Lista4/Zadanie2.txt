@@ -1,0 +1,10 @@
+Zadanie 2/lista 4
+a)
+Tak, ponieważ każdy następny węzeł, każde dziecko ma wartość mniejszą lub równą wartości rodzica.
+Własnością kopca jest to, że każdy potomek ma wartość mniejszą od swojego rodzica, czyli korzeń będzie największym elementem.
+b)
+Nie, ponieważ para rodzica 6 i potomka 7 ma nieprawidłowy porządek. Gdyby te węzły miały odwrotne miejsca, to wtedy byłby to kopiec.
+               23
+        17            14
+     6      13      10     1
+   5   7  12
